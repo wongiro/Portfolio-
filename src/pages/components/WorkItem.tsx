@@ -26,7 +26,7 @@ function WorkItem({
             <img
               src={logo}
               alt={`${company} logo`}
-              className="rounded-md w-20 h-20 object-contain bg-amber-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-700 p-2"
+              className="rounded-md w-20 h-20 object-contain bg-amber-50 dark:bg-gray-500 border border-gray-200 dark:border-gray-700 p-2"
             />
           </figure>
           <div className="text-left">

@@ -3,21 +3,5 @@
 /* Tailwind directives should come FIRST */
 @tailwind utilities;
 
-/* Temporary debug - force light mode visibility */
-html:not(.dark) {
-  background-color: white !important;
-}
 
-html:not(.dark) body {
-  background-color: white !important;
-}
-
-html:not(.dark) .bg-white {
-  background-color: white !important;
-  border: 2px solid green !important; /* Visual indicator */
-}
-
-html:not(.dark) .dark\:bg-gray-900 {
-  background-color: white !important;
-}
         
